@@ -1,0 +1,39 @@
+{
+    "description": "Allows multiple tasks to run at the same time, without interrupting each other. For Arduino sam and samd architectures only (Due, Zero...).", 
+    "repository": {
+        "url": "https://github.com/arduino-libraries/Scheduler", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelsam"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Arduino", 
+            "url": null, 
+            "email": "info@arduino.cc"
+        }
+    ], 
+    "keywords": [
+        "other"
+    ], 
+    "id": 884, 
+    "name": "Scheduler", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "0.4.4", 
+    "homepage": "http://www.arduino.cc/en/Reference/Scheduler"
+}
